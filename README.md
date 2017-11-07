@@ -6,3 +6,21 @@ To start the configuration you need first to configurate the setenv.bat then ins
 npm install -g @angular/cli
 ```
 
+Remember that to run any project first we need to install locally the dependencies with the following command.
+
+```
+cd demo1
+npm install 
+```
+
+To test the app during the development run 
+```
+cd demo1
+ng serve 
+```
+
+To build the aplication to distribute it 
+```
+cd demo1
+ng build 
+```
